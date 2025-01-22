@@ -1,0 +1,66 @@
+Multi-AI Agent System for Voice Search
+Designed and Implemented by 
+
+Dr. G R Anil,  Jeevan Prakash K. 
+
+
+1. Project Overview
+
+This project aims to develop a multi-AI agent system that can perform voice search from a local database or YouTube and provide audio or visual feedback accordingly.
+
+2. System Functionality
+
+* Voice Input:
+    * Captures user voice input using a Speech-to-Text (STT) library.
+    * Processes the speech into text.
+* Search:
+    * Local Database:
+        * Searches the local database for the query or related keywords.
+        * If a match is found, retrieves the corresponding audio file path.
+    * YouTube Search (if no local match):
+        * Queries YouTube using the YouTube Data API.
+        * Filters and ranks results based on relevance.
+        * Retrieves the top result's URL.
+* Response Generation:
+    * Local Audio Match:
+        * Plays the audio file associated with the local search result.
+    * YouTube Video Match:
+        * Provides the YouTube URL to the user (e.g., display or Text-to-Speech).
+    * No Match:
+        * Informs the user that no results were found in the local database or YouTube.
+
+3. System Architecture
+
+The system comprises three main agents:
+
+* Voice Input Agent: Handles STT and initial processing.
+* Search Agent: Performs local and YouTube searches.
+* Response Generation Agent: Generates the final response (audio playback, URL display, or text-to-speech).
+
+4. Technologies Used
+
+* Programming Language: Python (replace with your chosen language)
+* Speech Recognition Library (e.g., SpeechRecognition)
+* Local Database (e.g., SQLite)
+* YouTube Data API Client Library
+* Audio Playback Library (e.g., playsound)
+* Text-to-Speech Library (optional, e.g., pyttsx3, Google Cloud Text-to-Speech)
+* Communication Mechanism (e.g., message queues, shared memory)
+
+5. Project Setup Instructions
+
+1. Install required libraries (refer to code for specific libraries).
+2. Configure the local database (create tables, store audio files).
+3. Obtain a YouTube Data API key (if using YouTube search).
+
+6. Further Enhancements (Optional)
+
+* Contextual awareness based on user history and preferences.
+* Sentiment analysis to tailor responses.
+* Visual search integration.
+* Multilingual support.
+* Cloud deployment.
+
+7. Conclusio
+
+This multi-AI agent system demonstrates a framework for voice search with local database and YouTube integration. By following this documentation and customizing the code, you can build a robust and informative voice search application.
