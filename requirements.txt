@@ -1,10 +1,19 @@
-langchain
-langchain_community
-boto3
-awscli
-faiss-cpu
-langchain-text-splitters
-numpy
+# langchain
+# langchain_community
+# boto3
+# awscli
+# faiss-cpu
+# langchain-text-splitters
+# numpy
+# streamlit
+# pypdf
+# langchain-aws
+assemblyai
+# langchain
+python-dotenv
+# chromadb
+# sentence-transformers
+pyaudio
 streamlit
-pypdf
-langchain-aws
+groq
+audio_recorder_streamlit
