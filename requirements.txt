@@ -8,3 +8,15 @@ numpy
 streamlit
 pypdf
 langchain-aws
+pydub
+speechrecognition
+playsound
+youtube-search
+pyttsx3
+yt_dlp
+google-api-python-client 
+librosa 
+rake-nltk
+pinecone 
+pinecone-plugin-inference
+langchain_pinecone
